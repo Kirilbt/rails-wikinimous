@@ -1,3 +1,36 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(47, 101, 163);
+}
+
+ul li{
+  font-size: 2rem;
+  padding: 50px 0;
+}
+
+.nav {
+  background: #eee;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
