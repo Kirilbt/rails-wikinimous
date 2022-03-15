@@ -11,7 +11,9 @@
   </head>
 
   <body>
-    <div class='nav sticky'><a href="#">Wikinimous</a><%= link_to "New article", new_article_path %></div>
-    <%= yield %>
+    <div class='nav'><%= link_to "Wikinimous", articles_path %><%= link_to "New article", new_article_path %></div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
